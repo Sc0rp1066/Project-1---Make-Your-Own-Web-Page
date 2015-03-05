@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Webpages, Documents, and Structure Summary:</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    
+        <div>
+      <div class="center">Webpage Basics</div>
+    <div>
+      <ul>
+      <li><b>The Web - (World Wide Web)</b> is collection of HTML documents. </li>
+
+      <li><b>HTML (Hypertext Markup Language)</b> - The standard markup language used to create and format the content of web pages.</li>
+
+      <li><b> Web Page Layout- </b> Invisible boxes with content and style formatting. Class attributes define the content of the boxes.</li> 
+      <li><b> CSS - Cascading Style Sheets -</b> Style sheet language used for describing the look and formatting of a document written in markup language.</li>
+      <li><b> DOM- Document Object Model </b> - A cross platform and language independent convention for representing and interacting with objects in HTML. The nodes of every document are organized in a tree structure called the DOM.</li>    
+      <li><b>URL - Link or Webpage address</b> in the internet.</li>
+
+      <li><b>HTTP - Hyper Text Transfer Protocol</b> - How web browsers talk to the webpage servers across the internet.</li>
+
+      <li><b>Web applications</b></li>
+      </ul>   
+    </div>
+  </div>
+  
+  
+  <div>
+      <div class="center">HTML is the heart of the Web
+        !</div>
+  
+  <div class="app1">  
+    <div class="app3">    
+     <h3>Some HTML Basics:</h3>  
+    
+      <ul>
+       <li><b>Tag</b> - HTML tag is code that describes how a web page is formatted. Tags appear in HTML as brackets made up the less than / greater than symbols. Most have an opening tag &lt; > and a closing tag &lt; / >.</li>
+
+       <li><b>Element</b> - HTML element is everything within and including the set of opening and closing tags.</li>
+
+       <li><b>Attribute</b> - The property of and HTML element ex. &lt;a href= "url"> content &lt;/a>.</li>
+    
+       <li><b>Text content</b> (what you see)</li>
+
+       <li><b>Markup</b> (what the content looks like)</li>
+
+      <li><b>References to other documents</b> (ex. Images, videos...)</li>
+
+      <li><b>Links to other pages</b></li>
+      </ul>
+    </div>  
+  
+    <div class="app3">
+     <h3>HTML Document Structure:</h3>    
+      &lt;! <b>Doctype HTML> <br>
+      &lt;html><br>
+      &lt;head><br>
+      &lt;title> Title &lt;/title><br>
+      &lt;/head><br>
+      &lt;body><br>
+      &lt;b> Content &lt;/b><br>
+      &lt;/body><br>
+      &lt;/html></b>
+    </div>
+  </div>
+</div>
+    
+ <div>
+      <div class="center1">TAG Types:</div>
+    
+ 
+    <div class="app1">  
+    <div class="app3">  
+      <h4>Inline Tags: Only contains text. HTML renders white space to a single space.</h4>
+    
+        
+        <ul>  
+       <li><b>Anchor</b> - &lt;a href= "url"> content &lt;/a> - Create hyperlinks <br></li>
+
+        <li><b>Bold</b> - &lt;b> Content &lt;/b> - Bolds content<br></li>
+
+        <li><b>Emphasize</b> - &lt;em> content &lt;/em> - Italicize Content<br></li>   
+
+        <li><b>Span</b> - &lt;span> content &lt;/span> - contains content with attribute<br></li>
+
+        <li><b>Strong</b> - &lt;strong> content &lt;/strong> - contains content. Bolds with attribute.<br><br></li>
+      </ul>
+    
+    </div>
+    <div class="app3">
+        <h4>Block Tag: Creates "invisible boxes" around content which can have height and width elements. Used to create "container elements"</h4>
+    
+        <ul>
+        <li><b>Paragraph</b> - &lt;p> content &lt;/p> - Paragraph with line break<br></li>
+
+        <li><b>Div</b> - &lt;div> content &lt;/div> - Used to define "boxes"<br></li>
+
+        <li><b>Form</b> - &lt;form> content &lt;/form></li>
+      </ul>
+    </div>
+    </div>    
+  </div>
+
+  
+  <div>
+    
+    <h2>Design and Style:</h2>
+  
+
+<h3><em>Choose the right type element for certain portions of the page. Always use the appropriate tag for the content.</em></h3>
+
+
+<div>
+<h4>Element Box Size Issues:</h4>
+HTML elements are boxes and each box has 4 size components, margin, border, padding, and content dimensions.<br>
+Because of the number components in a box it can be difficult to size.<br><br>
+Two techniques to help with sizing.<br>
+<ul>
+  <li>Set sizes in terms of percent rather than pixels. So elements can re-size with the window size.</li>
+  <li>Set the "box-sizing" attribute in the CSS file to "border-box" for every element. *{box-sizing: border-box;}</li>
+</ul>
+</div>
+
+
+  <div>
+<h4>Box positioning:</h4>
+Divs are block elements so by default take up the entire width of the page.<br>
+Add the CSS rule "display: flex;" to the parent container will allow the divs within appear next to each other.<br>
+</div>
+</div>
+
+<div>  
+<h4>Routine to improve page - Code, Test &amp; Refine:</h4>
+<ol>
+ <li>Define Structure - Boxify
+  <ul>
+  <li>Look at tags</li> 
+  <li>Size of boxes</li>
+  <li>Look at position of boxes</li>
+</ul>
+<li>Look for repeated style &amp; semantics</li>
+<li>Write <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"> HTML</a></li>
+<li>Apply <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Styles</a></li>
+<li>Fix things</li>
+<li>Repeat steps 3 &amp; 4 until design is correct. Use developer tools to test changes on the fly prior to making changes to the CSS file.</li>
+</ol>
+</div>
+</body>
+</html>
